@@ -8,4 +8,7 @@ end
  i == 0 ? "HAPPY NEW YEAR!" : nil
 end
 
-def
+def countdown_with_sleep(i)
+  countdown(i)
+  sleep(1)
+end
